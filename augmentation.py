@@ -127,7 +127,7 @@ def save_image(image, output_path):
     cv2.imwrite(output_path, image)
 
 
-image = read_image("data_for_augmentation/1.png")
+image = read_image("data_for_augmentation/driver02.png")
 background_image = read_image("backgrounds\pexels-andrejcook-131723.jpg")
 transformed_image = augment_image(image)
 combined = place_on_background(transformed_image, background_image)
