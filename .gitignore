@@ -1,0 +1,20 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore background images
+backgrounds/
+
+# Ignore data for augmentation
+Data_for_augmentation/
+
+# Ignore generated dataset
+dataset/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system files
+.DS_Store
+Thumbs.db

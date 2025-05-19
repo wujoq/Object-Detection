@@ -1,0 +1,7 @@
+names:
+- driver
+- komb
+- sword
+path: dataset
+train: train/images
+val: val/images
